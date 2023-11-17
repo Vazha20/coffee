@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
-
-
 .img-header {
     background-image: url('./coffee_image.png'); /* Added quotes around the URL */
     background-size: cover;
@@ -41,10 +39,9 @@ p{
 }
 h2{
     color: var(--coffee, #603809);
-font-family: Playfair Display;
-font-size: 54px;
-font-style: normal;
-
+    font-family: Playfair Display;
+    font-size: 54px;
+    font-style: normal;
 }
 .relative{
     position: relative;
@@ -53,4 +50,40 @@ font-style: normal;
     position: absolute;
     left: -6%;
     margin-top: -12%;
+}
+.absoluteCoffee{
+    position: absolute;
+    left:  100px;
+    margin-top: -200px;
+    width: 300px;
+}
+
+.coffimgSize img{
+    width: 214px;
+}
+.info{
+    margin-top: 160px;
+}
+.backColor{
+    background-color: #FFEED8;
+    padding: 30px 24px;
+}
+.imgCenter{
+    background-image: url('./Group 36.png'); /* Added quotes around the URL */
+    background-size: cover;
+    background-position: center; /* Ensures the background image covers the entire container */
+    height: 574px;
+    background-repeat: no-repeat;
+}
+.imgCenterblur{
+    background-image: url('./Rectangle 16.png'); /* Added quotes around the URL */
+    background-size: cover;
+    background-position: center; /* Ensures the background image covers the entire container */
+    height: 574px;
+    background-repeat: no-repeat; 
+} 
+
+.coffebeanSize img{
+    width: 502px;
+    margin-top: 128px;
 }
