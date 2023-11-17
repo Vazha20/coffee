@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
-.img-header{
-    background-image: url(./coffee_image.png);
-    height: 100vh;
+
+
+.img-header {
+    background-image: url('./coffee_image.png'); /* Added quotes around the URL */
+    background-size: cover;
+    background-position: center; /* Ensures the background image covers the entire container */
+    height: 768px;
     background-repeat: no-repeat;
-  
+}
+.singUp{
+    width: 140px;
 }
 .btn_primary{
     font-family: 'Playfair Display';
@@ -12,4 +18,39 @@
     padding: 14px 27px;
     background-color: #F9C06A;
     font-size: 14px;
+    border-style: none;
+    
+}
+p{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+}
+.nav-link{
+    color: white; 
+    font-family: Playfair Display;
+    font-size: 14px;
+}
+.Signin {
+    width: 80px;
+}
+.Signin a{
+    color: white;
+    font-family: Playfair Display;
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+h2{
+    color: var(--coffee, #603809);
+font-family: Playfair Display;
+font-size: 54px;
+font-style: normal;
+
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    left: -6%;
+    margin-top: -12%;
 }
