@@ -82,8 +82,6 @@ h2{
     height: 574px;
     background-repeat: no-repeat; 
 } 
-
-.coffebeanSize img{
-    width: 502px;
-    margin-top: 128px;
+.coffebeanSize{
+    margin-right: -116px;
 }
